@@ -9,8 +9,7 @@ Our team was the first team to beat the small energy organ at RM19, and the clas
 ## Unzip Data And Check File Num
 
 ```shell
-unzip data/negative.zip
-unzip data/positive.zip
+unzip data
 
 echo "Number of Test Negitive Sample: "
 ls -l data/negative | grep '^-' | wc -l
