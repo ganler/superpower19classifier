@@ -2,7 +2,7 @@
 
 [Robomaster](https://www.robomaster.com/zh-CN) Competition 2019. The demostration of classifier from SuperPower Team(from Tongji University, China).
 
-Note that we just published our demo code to show the main idea of our algorithm. We actually made a better version of code which has higher accuracy and faster interface time(98+%, 2~3 ms time cost when dealing with 100 pieces of images on our NUC).
+**Note that we just published our demo code to show the main idea of our algorithm. We actually made a better version of code which has higher accuracy and faster interface time** (98+%, 2~3 ms time cost when dealing with 100 pieces of images on our NUC).
 
 Our team was the first team to beat the small energy organ at RM19, and the classifier algorithm used is just what the code of this repo describes.
 
