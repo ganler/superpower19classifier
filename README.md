@@ -89,15 +89,9 @@ int main()
 
 #### Speed
 
-Use some optimization techniques( this is great ).
-
-Some simple tips that I can share with U:
+Some simple tips:
 
 - SIMD(We enabled "auto-SIMD" via "-march=native" and "-Ofast"), U can include `<intrin.h>` to optimize ur code using other good instructions.
 - Always use clang as ur compiler. (Clang is perfect at numeric code optimization, while gcc …)
-- Muti-threading. (In our deployment code, I used thread pool technique which can help when dealing with a big image sequence. But of course, pay attention to the strategy of switching single threading and multi-threading)
-
-> Of course, the algorithm it self is simple and effective. No need to optimize too much.
->
-> (The fastest answer may be Cuda … )
+- Muti-threading. (In our deployment code, I used thread pool technique which is faster when dealing with a big image sequence. But of course, let profiling to decide whether it is worthy)
 
